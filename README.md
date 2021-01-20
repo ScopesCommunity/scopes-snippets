@@ -1,2 +1,15 @@
 # scopes-snippets
-Community curated repository of useful functions and macros written in the Scopes programming language
+
+For small, reusable pieces of code that slightly extend the language or do some common task, but wouldn't make sense on the default distribution or as a part of a library. Contributions are welcome.
+
+Note that the modules in `snippets/` aren't meant to be imported directly, but instead copied and integrated to your codebase as you see fit. For that reason they are either self contained (core-only) or depend only on libraries from the standard distribution.
+
+To add a snippet, open a pull request. Rules for inclusion:
+- License and authorship information go at the top of the file
+- No external dependencies
+- Must include comments / docstring clarifying purpose and functionality
+
+## LICENSE
+License information is defined on a per file basis.
+
+
