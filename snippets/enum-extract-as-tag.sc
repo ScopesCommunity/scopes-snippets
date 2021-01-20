@@ -20,10 +20,7 @@ inline extract-as-tag (ev tag)
 
     # safety check
     assert (('literal ev) == lit)
-    static-if (ft.Type == Nothing)
-        none
-    else
-        'unsafe-extract-payload ev ft.Type
+    'unsafe-extract-payload ev ft.Type
 
 # Original Author: Westerbly (radgeRayden) Snaydley
 # Date: 2021-01-20
