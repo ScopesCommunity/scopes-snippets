@@ -10,6 +10,6 @@ To add a snippet, open a pull request. Rules for inclusion:
 - Must include comments / docstring clarifying purpose and functionality
 
 ## LICENSE
-License information is defined on a per file basis.
+By submitting a snippet you agree that your code is now under Unlicense (public domain).
 
 
