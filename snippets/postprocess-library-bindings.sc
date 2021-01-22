@@ -26,7 +26,7 @@ inline sanitize-bindings (scope pattern)
         let match? start end = ('match? pattern name)
         if match?
             # here we make the assumption that we are always removing a prefix, so rslice suffices.
-            let new-name = (rslice name (countof pattern))
+            let new-name = (rslice name end)
             'bind scope (Symbol new-name) v
         else
             # return the unmodified Scope.
